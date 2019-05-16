@@ -1,0 +1,106 @@
+body{
+    background:black;
+    font-family: 'Open Sans',Helvetica, sans-serif;
+} 
+
+.header0{
+    background:url(../img/000000-0.8.png) repeat left top, url(../img/home.jpg) no-repeat center top;
+    background-size: cover;
+} 
+.intro{
+    height: auto;
+} 
+
+.services{
+    padding: 80px 10px;
+}
+
+.services i{
+    color: #AAF; 
+    font-size: 1.5rem;   
+    top: -1rem;       
+    padding: 0px 3rem;   
+    left: 3rem;      
+    background-color: #FFF; 
+    /* position: absolute;
+     
+   */
+}
+
+.services article {
+    height: 14rem;
+} 
+
+.chiffres{
+    background:url(../img/000000-0.8.png) repeat left top, url(../img/home.jpg) no-repeat center center;
+    background-color: rgba(0, 0, 0, 0.5), transparent;
+    background-size: cover;
+    height: auto;
+    text-transform: uppercase;
+
+} 
+
+.testi p{
+    width: 100%; 
+} 
+.testi img{
+    width: 5rem;
+} 
+
+/* /// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .services i{
+        left: 3rem;
+    } 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chiffres{
+        background-size: 100%;
+        height: 330px;
+    
+    } 
+    .services i{
+        left: 2rem;
+    } 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header0{
+        height: 1500px;       
+         background-size: 220%;
+     } 
+ 
+     .chiffres{
+         background-size: 100%;
+         height: 330px;
+     
+     }  
+     .services i{  
+         left: 4rem;      
+     } 
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header0{
+        height: 1500px;       
+         background-size: 220%;
+     } 
+ 
+     .chiffres{
+         background-size: 100%;
+         height: 330px;
+     
+     }  
+     .services i{  
+         left: 5rem;      
+     } 
+}
